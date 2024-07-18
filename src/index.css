@@ -1,0 +1,63 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: black;
+}
+
+.line {
+    width: 50px;
+    height: 2px;
+    background-color: red;
+}
+
+.poppins-reg-italic {
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-style: italic;
+    font-weight: bold;
+}
+
+.poppins-light {
+    font-family: "Poppins", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+}
+
+.another-title{
+    color: #FFFFFF00;
+    font-size: 80px;
+    -webkit-text-stroke-width: 1px;
+    stroke-width: 1px;
+    -webkit-text-stroke-color: #FFFFFF6E;
+    stroke: #FFFFFF6E;
+}
+
+.another-title2{
+    color: #FFFFFF00;
+    font-size: 70px;
+    -webkit-text-stroke-width: 1px;
+    stroke-width: 1px;
+    -webkit-text-stroke-color: #FFFFFF6E;
+    stroke: #FFFFFF6E;
+}
+
+.red{
+    color : red;
+}
+
+ol{
+    display: none;
+}
+
+.open{
+    display: flex;
+    gap: 1rem;
+}
