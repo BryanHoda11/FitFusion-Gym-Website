@@ -4,8 +4,8 @@ import Footer from './Footer'
 const Store = () => {
   return (
     <>
-      <div className="store-intro flex text-red-600 bg-gray-950 py-4 w-full justify-around my-6">
-        <img src="Store/store_intro.png" alt="" />
+      <div className="/Store-intro flex text-red-600 bg-gray-950 py-4 w-full justify-around my-6">
+        <img src="/Store/store_intro.png" alt="" />
         <div className='flex flex-col justify-center items-center gap-3'>
           <p className='font-bold text-3xl poppins-reg-italic my-8'>Shop now @ flat 40% off</p>
           <p className='text-xl poppins-reg-italic'>Use Code : <span className='underline px-2'>FITFUSE40</span></p>
@@ -13,28 +13,28 @@ const Store = () => {
         </div>
       </div>
 
-      <div className="store-container min-h-screen flex w-full justify-center">
+      <div className="/Store-container min-h-screen flex w-full justify-center">
         <div className="items flex flex-col w-[100%]">
           <div className="tshirts">
             <h2 className='text-xl poppins-reg-italic text-red-600 px-3 py-3'>T-Shirts</h2>
             <div className="t-container flex">
               <div className="card flex flex-col items-center mx-4 px-2 py-2 border-2 rounded-xl border-red-600">
-                <img className='h-[300px]' src="Store/tshirt1.png" alt="" />
+                <img className='h-[300px]' src="/Store/tshirt1.png" alt="" />
                 <span className='text-red-600 my-3 text-xs'> Rs.899 <span className='text-gray-500 line-through px-3'>MRP - Rs.1100</span> </span>
                 <button className='px-3 py-3 my-3 text-black bg-red-600 hover:bg-red-500 font-bold w-1/2'> Buy Now! </button>
               </div>
               <div className="card flex flex-col items-center mx-4 px-2 py-2 border-2 rounded-xl border-red-600">
-                <img className='h-[300px]' src="Store/tshirt2.png" alt="" />
+                <img className='h-[300px]' src="/Store/tshirt2.png" alt="" />
                 <span className='text-red-600 my-3 text-xs'> Rs.760 <span className='text-gray-500 line-through px-3'>MRP - Rs.999</span> </span>
                 <button className='px-3 py-3 my-3 text-black bg-red-600 hover:bg-red-500 font-bold w-1/2'> Buy Now! </button>
               </div>
               <div className="card flex flex-col items-center mx-4 px-2 py-2 border-2 rounded-xl border-red-600">
-                <img className='h-[300px]' src="Store/tshirt3.png" alt="" />
+                <img className='h-[300px]' src="/Store/tshirt3.png" alt="" />
                 <span className='text-red-600 my-3 text-xs'> Rs.699 <span className='text-gray-500 line-through px-3'>MRP - Rs.1200</span> </span>
                 <button className='px-3 py-3 my-3 text-black bg-red-600 hover:bg-red-500 font-bold w-1/2'> Buy Now! </button>
               </div>
               <div className="card flex flex-col items-center mx-4 px-2 py-2 border-2 rounded-xl border-red-600">
-                <img className='h-[300px]' src="Store/tshirt4.png" alt="" />
+                <img className='h-[300px]' src="/Store/tshirt4.png" alt="" />
                 <span className='text-red-600 my-3 text-xs'> Rs.799 <span className='text-gray-500 line-through px-3'>MRP - Rs.1000</span> </span>
                 <button className='px-3 py-3 my-3 text-black bg-red-600 hover:bg-red-500 font-bold w-1/2'> Buy Now! </button>
               </div>
@@ -45,22 +45,22 @@ const Store = () => {
             <h2 className='text-xl poppins-reg-italic text-red-600 px-3 py-3 mt-10'>Pants</h2>
             <div className="p-container flex">
               <div className="card flex flex-col items-center mx-4 px-2 py-2 border-2 rounded-xl border-red-600">
-                <img className='h-[300px]' src="Store/pants2.png" alt="" />
+                <img className='h-[300px]' src="/Store/pants2.png" alt="" />
                 <span className='text-red-600 my-3 text-xs'> Rs.650 <span className='text-gray-500 line-through px-3'>MRP - Rs.850</span> </span>
                 <button className='px-3 py-3 my-3 text-black bg-red-600 hover:bg-red-500 font-bold w-1/2'> Buy Now! </button>
               </div>
               <div className="card flex flex-col items-center mx-4 px-2 py-2 border-2 rounded-xl border-red-600">
-                <img className='h-[300px]' src="Store/pants3.png" alt="" />
+                <img className='h-[300px]' src="/Store/pants3.png" alt="" />
                 <span className='text-red-600 my-3 text-xs'> Rs.699 <span className='text-gray-500 line-through px-3'>MRP - Rs.1,000</span> </span>
                 <button className='px-3 py-3 my-3 text-black bg-red-600 hover:bg-red-500 font-bold w-1/2'> Buy Now! </button>
               </div>
               <div className="card flex flex-col items-center mx-4 px-2 py-2 border-2 rounded-xl border-red-600">
-                <img className='h-[300px]' src="Store/pants4.png" alt="" />
+                <img className='h-[300px]' src="/Store/pants4.png" alt="" />
                 <span className='text-red-600 my-3 text-xs'> Rs.450 <span className='text-gray-500 line-through px-3'>MRP - Rs.700</span> </span>
                 <button className='px-3 py-3 my-3 text-black bg-red-600 hover:bg-red-500 font-bold w-1/2'> Buy Now! </button>
               </div>
               <div className="card flex flex-col items-center mx-4 px-2 py-2 border-2 rounded-xl border-red-600">
-                <img className='h-[300px]' src="Store/pants5.png" alt="" />
+                <img className='h-[300px]' src="/Store/pants5.png" alt="" />
                 <span className='text-red-600 my-3 text-xs'> Rs.799 <span className='text-gray-500 line-through px-3'>MRP - Rs.1,100</span> </span>
                 <button className='px-3 py-3 my-3 text-black bg-red-600 hover:bg-red-500 font-bold w-1/2'> Buy Now! </button>
               </div>
@@ -71,22 +71,22 @@ const Store = () => {
             <h2 className='text-xl poppins-reg-italic text-red-600 px-3 py-3 mt-10'>Shoes</h2>
             <div className="s-container flex">
               <div className="card flex flex-col items-center mx-4 px-2 py-2 border-2 rounded-xl border-red-600">
-                <img className='h-[300px]' src="Store/shoes1.png" alt="" />
+                <img className='h-[300px]' src="/Store/shoes1.png" alt="" />
                 <span className='text-red-600 my-3 text-xs'> Rs.1,200 <span className='text-gray-500 line-through px-3'>MRP - Rs.1,500</span> </span>
                 <button className='px-3 py-3 my-3 text-black bg-red-600 hover:bg-red-500 font-bold w-1/2'> Buy Now! </button>
               </div>
               <div className="card flex flex-col items-center mx-4 px-2 py-2 border-2 rounded-xl border-red-600">
-                <img className='h-[300px]' src="Store/shoes2.png" alt="" />
+                <img className='h-[300px]' src="/Store/shoes2.png" alt="" />
                 <span className='text-red-600 my-3 text-xs'> Rs.1,300 <span className='text-gray-500 line-through px-3'>MRP - Rs.1,700</span> </span>
                 <button className='px-3 py-3 my-3 text-black bg-red-600 hover:bg-red-500 font-bold w-1/2'> Buy Now! </button>
               </div>
               <div className="card flex flex-col items-center mx-4 px-2 py-2 border-2 rounded-xl border-red-600">
-                <img className='h-[300px]' src="Store/shoes4.png" alt="" />
+                <img className='h-[300px]' src="/Store/shoes4.png" alt="" />
                 <span className='text-red-600 my-3 text-xs'> Rs.1,400 <span className='text-gray-500 line-through px-3'>MRP - Rs.1,900</span> </span>
                 <button className='px-3 py-3 my-3 text-black bg-red-600 hover:bg-red-500 font-bold w-1/2'> Buy Now! </button>
               </div>
               <div className="card flex flex-col items-center mx-4 px-2 py-2 border-2 rounded-xl border-red-600">
-                <img className='h-[300px]' src="Store/shoes5.png" alt="" />
+                <img className='h-[300px]' src="/Store/shoes5.png" alt="" />
                 <span className='text-red-600 my-3 text-xs'> Rs.1,500 <span className='text-gray-500 line-through px-3'>MRP - Rs.2,100</span> </span>
                 <button className='px-3 py-3 my-3 text-black bg-red-600 hover:bg-red-500 font-bold w-1/2'> Buy Now! </button>
               </div>
@@ -98,25 +98,25 @@ const Store = () => {
             <h2 className='text-xl poppins-reg-italic text-red-600 px-3 py-3 mt-10'>Equipments</h2>
             <div className="e-container flex mb-20">
               <div className="card flex flex-col items-center mx-4 px-2 py-2 border-2 rounded-xl border-red-600">
-                <img className='h-[300px]' src="Store/equipment1.png" alt="" />
+                <img className='h-[300px]' src="/Store/equipment1.png" alt="" />
                 <span className='text-red-600 my-3 text-sm font-bold'> Dumbell 5-10kgs </span>
                 <span className='text-red-600 my-3 text-xs'> Rs.4,000 <span className='text-gray-500 line-through px-3'>MRP - Rs.5,500</span> </span>
                 <button className='px-3 py-3 my-3 text-black bg-red-600 hover:bg-red-500 font-bold w-1/2'> Buy Now! </button>
               </div>
               <div className="card flex flex-col items-center mx-4  px-2 py-2 border-2 rounded-xl border-red-600">
-                <img className='h-[300px]' src="Store/equipment2.png" alt="" />
+                <img className='h-[300px]' src="/Store/equipment2.png" alt="" />
                 <span className='text-red-600 my-3 text-sm font-bold'> Treadmill </span>
                 <span className='text-red-600 my-3 text-xs'> Rs.11,000 <span className='text-gray-500 line-through px-3'>MRP - Rs.14,000</span> </span>
                 <button className='px-3 py-3 my-3 text-black bg-red-600 hover:bg-red-500 font-bold w-1/2'> Buy Now! </button>
               </div>
               <div className="card flex flex-col items-center mx-4  px-2 py-2 border-2 rounded-xl border-red-600">
-                <img className='h-[300px]' src="Store/equipment3.png" alt="" />
+                <img className='h-[300px]' src="/Store/equipment3.png" alt="" />
                 <span className='text-red-600 my-3 text-sm font-bold'> Iron bars (set of 6) </span>
                 <span className='text-red-600 my-3 text-xs'> Rs.10,000 <span className='text-gray-500 line-through px-3'>MRP - Rs.12,000</span> </span>
                 <button className='px-3 py-3 my-3 text-black bg-red-600 hover:bg-red-500 font-bold w-1/2'> Buy Now! </button>
               </div>
               <div className="card flex flex-col items-center mx-4  px-2 py-2 border-2 rounded-xl border-red-600">
-                <img className='h-[300px]' src="Store/equipment4.png" alt="" />
+                <img className='h-[300px]' src="/Store/equipment4.png" alt="" />
                 <span className='text-red-600 my-3 text-sm font-bold'> Workout gloves (2 pairs) </span>
                 <span className='text-red-600 my-3 text-xs'> Rs.600 <span className='text-gray-500 line-through px-3'>MRP - Rs.850</span> </span>
                 <button className='px-3 py-3 my-3 text-black bg-red-600 hover:bg-red-500 font-bold w-1/2'> Buy Now! </button>
@@ -126,7 +126,7 @@ const Store = () => {
         </div>
         <div className="text-gray-400 w-1/4 flex flex-col items-baseline px-10 sticky text-sm">
           <div className="flex gap-1 py-5">
-            <img src="Store/sort.svg" alt="" /> Sort by
+            <img src="/Store/sort.svg" alt="" /> Sort by
           </div>
           <h3>Items :</h3>
           <div className="flex py-2">
